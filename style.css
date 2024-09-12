@@ -1,0 +1,115 @@
+.div-container1 {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 6px 3px;
+}
+
+.addbook-buton-div {
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+}
+
+.addbook-buton {
+    font-size: 1.7em;
+}
+
+.log-btn {
+    height: 40px;
+    width: 5%;
+    margin-top: 1%;
+}
+
+.submit-button {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(19, 231, 19);
+    font-size: 1em;
+    margin-left: 3%;
+    font-weight: bold;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+}
+#fname{
+    width: 7%;
+    height: 20px;
+}
+
+.form-divcontainer {
+    background-color: aqua;
+    width:350px;
+    height: 350px;
+    position: fixed;
+    text-align: center;
+    visibility: hidden;
+    border: 2px solid black;
+    left: 40%;
+}
+
+
+.card-div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 0.9%;
+    visibility: hidden;
+    position: absolute;
+}
+
+.notreadbtn {
+    background-color: green;
+    font-size: 1.5em;
+    margin-left: 3%;
+    display: block;
+    padding-left: 32%;
+    padding-right: 32%;
+}
+
+.removebtn {
+    font-size: 1.5em;
+    margin-top: 5%;
+    padding-left: 32%;
+    padding-right: 32%;
+
+}
+
+.cards {
+    width: 15%;
+    height: 30%;
+    background-color: pink;
+    text-align: center;
+    border: 1px solid black;
+}
+#title{
+    padding: 2%;
+    border: 1px solid black;
+    font-size: larger;
+}
+#author{
+    padding: 2%;
+    border: 1px solid black;
+    font-size: larger;
+
+}
+#page{
+    padding: 2%;
+    border: 1px solid black;
+    font-size: larger;
+}
+.footer {
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-img {
+    width: 3%;
+}
